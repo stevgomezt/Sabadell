@@ -1,0 +1,9 @@
+¿Que tan satisfecho está con la atención que ha recibido de nuestro agente?
+5 - Totalmente satisfecho
+4 - Satisfecho
+3 - Indiferente
+2 - No muy satisfecho
+1 - Totalmente insatisfecho
+
+
+EXPERIENCIA del cliente durante una interacción concreta. Pregunta cerrada y fácil de entender con una escala de puntuación de 1 a 5 para una rápida obtención de feedback de los clientes.

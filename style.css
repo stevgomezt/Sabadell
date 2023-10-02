@@ -204,7 +204,7 @@ html {
 
 /* Section 2 */
 .section-2 {
-    border: solid red 1px;
+    /* border: solid red 1px; */
     width: 100%;
     padding: 8rem 0 8rem 0;
     display: flex;
@@ -251,14 +251,18 @@ html {
 .service-btn {
     width: 20rem;
     padding: 0rem;
-    background-color: transparent;
+    background-color: rgba(133, 145, 255, 0.082);
     border-radius: 3rem;
     /* border: 0.1rem solid #036bb1; */
     border: none;
     color: #036bb1;
     font-size: 1.5rem;
     font-weight: bold;
-    cursor: pointer;
+    transition: background-color 0.3s ease; /* Agrega una transición al fondo */
+}
+
+.service-btn:hover {
+    background-color: rgba(133, 145, 255, 0.281);
 }
 /* End of Section 2 */
 
@@ -661,19 +665,20 @@ html {
 }
 
 .image-emergia-modal {
-  width: 55px;
-  /* border: solid red 1px; */
-  /* margin-top: 40px; */
-  /* margin-left: 5px; */
+    width: 55px;
+    /* border: solid red 1px; */
+    /* margin-top: 40px; */
+    /* margin-left: 5px; */
 }
 
 .modal-styles {
-  padding: 0rem;
-  background-color: transparent;
-  border: none;
-  color: #036bb1;
-  font-size: 1.5rem;
-  font-weight: bold;
+    padding: 0rem;
+    margin-top: 15px;
+    background-color: transparent;
+    border: none;
+    color: #036bb1;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .image-grafico {
@@ -995,7 +1000,7 @@ button:focus {
     }
 
     .section-2 {
-        border: solid red 1px;
+        /* border: solid red 1px; */
         padding: 10rem 0;
     }
 
