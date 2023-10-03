@@ -2,19 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banco Sabadell</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container-flui">
-        <!-- Front Page -->
+    <div class="container-fluid">
         <div class="front-page">
-            <!-- Section 1 -->
             <section class="section-1">
                 <div class="navbar-wrapper">
                     <nav class="navbar">
@@ -27,13 +24,77 @@
                     </nav>
                 </div>
                 <div class="banner-video">
-                    <video width="840px" height="470" autoplay muted loop>
-                        <source src="/VIDEO_SABADELL_PARTE1.mp4" type="video/mp4">
+                    <video width="800" height="400" autoplay muted loop>
+                        <source src="/1.mp4" type="video/mp4">
                     </video>
                 </div>
             </section>
-            <!-- End of Section 1 -->
-            <!-- Section 3 -->
+            <section class="section-2">
+                <h1 class="section-2-heading">
+                    Medidor CSAT
+                </h1>
+                <div class="services">
+                    <div class="service">
+                        <img class="image-grafico" src="images/lv1.png" alt="" />
+                        <h3 class="service-heading">&nbsp;</h3>
+                        <p class="service-paragraph">
+                            Totalmente Insatisfecho
+                        </p>
+                        <button type="button" class="service-btn" data-toggle="modal" data-target="#miModal1" disabled>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                        </button>
+                    </div>
+                    <div class="service">
+                        <img class="image-grafico" src="images/lv2.png" alt="" />
+                        <h3 class="service-heading">&nbsp;</h3>
+                        <p class="service-paragraph">No Muy Satisfecho</p>
+                        <button type="button" class="service-btn" data-toggle="modal" data-target="#miModal2" disabled>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                        </button>
+                    </div>
+                    <div class="service">
+                        <img class="image-grafico" src="images/lv3.png" alt="" />
+                        <h3 class="service-heading">&nbsp;</h3>
+                        <p class="service-paragraph">Indiferente</p>
+                        <button type="button" class="service-btn" data-toggle="modal" data-target="#miModal3" disabled>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                        </button>
+                    </div>
+                    <div class="service">
+                        <img class="image-grafico" src="images/lv4.png" alt="" />
+                        <h3 class="service-heading">&nbsp;</h3>
+                        <p class="service-paragraph">Satisfecho</p>
+                        <button type="button" class="service-btn" data-toggle="modal" data-target="#miModal4" disabled>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                        </button>
+                    </div>
+                    <div class="service">
+                        <img class="image-grafico" src="images/lv5.png" alt="" />
+                        <h3 class="service-heading">&nbsp;</h3>
+                        <p class="service-paragraph">
+                            Totalmente Satisfecho
+                        </p>
+                        <button type="button" class="service-btn" data-toggle="modal" data-target="#miModal5" disabled>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                            <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
+                        </button>
+                    </div>
+                </div>
+                <h3 style="font-weight: 400; margin-top: 35px;">
+                    EXPERIENCIA del cliente durante una interacción concreta. Pregunta cerrada y fácil de entender con
+                    una
+                    escala de puntuación de 1 a 5 para una rápida obtención de feedback de los clientes.
+                </h3>
+            </section>
             <section class="section-3">
                 <div class="container-step" data-toggle="modal" data-target="#miModalForm1">
                     <div class="clickable-div">
@@ -65,7 +126,7 @@
                     </div>
                 </div>
 
-                <div class="container-step">
+                <div class="container-step" data-toggle="modal" data-target="#miModalForm3">
                     <div class="clickable-div">
                         <span>
                             <div>
@@ -75,126 +136,40 @@
                             cuantitativa del CSAT para activar acciones operativas de mejora en los rangos
                             que
                             lo amerite.
+                            <small style="text-decoration: underline; font-weight: bold; font-style: italic;">Ver
+                                más</small>
                         </span>
                     </div>
                 </div>
+            </section>
+            <section class="section-5">
+                <footer class="footer">
+                    <div class="footer-top">
+                        <ul class="footer-list">
+                            <li>
+                                <a href="#">
+                                    <img src="images/flagSpain.png" />
+                                </a>
+                                <a href="#">
+                                    <img src="images/flagCol.png" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-bottom">
+                        <p class="copyright">Area de Analitica Emergia</p>
+                    </div>
+                </footer>
+            </section>
         </div>
-        </section>
-
-        <!-- End of Section 3 -->
-        <!-- Section 2 -->
-        <section class="section-2">
-            <h1 class="section-2-heading">
-                Escala de nivel de satisfacción
-            </h1>
-            <div class="services">
-                <div class="service">
-                    <img class="image-grafico" src="images/lv1.png" alt="" />
-                    <h3 class="service-heading">&nbsp;</h3>
-                    <p class="service-paragraph">
-                        Totalmente Insatisfecho
-                    </p>
-                    <button type="button" class="service-btn" data-toggle="modal" data-target="#miModal1" disabled>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <!-- <p>Más informacion</p> -->
-                    </button>
-                </div>
-                <div class="service">
-                    <img class="image-grafico" src="images/lv2.png" alt="" />
-                    <h3 class="service-heading">&nbsp;</h3>
-                    <p class="service-paragraph">No Muy Satisfecho</p>
-                    <button type="button" class="service-btn" data-toggle="modal" data-target="#miModal2" disabled>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <!-- <p>Más informacion</p> -->
-                    </button>
-                </div>
-                <div class="service">
-                    <img class="image-grafico" src="images/lv3.png" alt="" />
-                    <h3 class="service-heading">&nbsp;</h3>
-                    <p class="service-paragraph">Indiferente</p>
-                    <button type="button" class="service-btn" data-toggle="modal" data-target="#miModal3" disabled>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <!-- <p>Más informacion</p> -->
-                    </button>
-                </div>
-                <div class="service">
-                    <img class="image-grafico" src="images/lv4.png" alt="" />
-                    <h3 class="service-heading">&nbsp;</h3>
-                    <p class="service-paragraph">Satisfecho</p>
-                    <button type="button" class="service-btn" data-toggle="modal" data-target="#miModal4" disabled>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <!-- <p>Más informacion</p> -->
-                    </button>
-                </div>
-                <div class="service">
-                    <img class="image-grafico" src="images/lv5.png" alt="" />
-                    <h3 class="service-heading">&nbsp;</h3>
-                    <p class="service-paragraph">
-                        Totalmente Satisfecho
-                    </p>
-                    <button type="button" class="service-btn" data-toggle="modal" data-target="#miModal5" disabled>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <i class="fas fa-star" style="color: #fbff00; font-size: 25px"></i>
-                        <!-- <p>Más informacion</p> -->
-                    </button>
-                </div>
-            </div>
-            <h3 style="font-weight: 400; margin-top: 35px;">
-                EXPERIENCIA del cliente durante una interacción concreta. Pregunta cerrada y fácil de entender con una
-                escala de puntuación de 1 a 5 para una rápida obtención de feedback de los clientes.
-            </h3>
-        </section>
-        <!-- End of Section 2 -->
-        <!-- Section 4 -->
-        <!-- End of Section 4 -->
-
-        <!-- Section 5 -->
-        <section class="section-5">
-            <footer class="footer">
-                <div class="footer-top">
-                    <ul class="footer-list">
-                        <li>
-                            <a href="#">
-                                <img src="images/flagSpain.png" />
-                            </a>
-                            <a href="#">
-                                <img src="images/flagCol.png" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-bottom">
-                    <p class="copyright">Area de Analitica Emergia</p>
-                </div>
-            </footer>
-        </section>
-        <!-- End of Section 5 -->
     </div>
-    <!-- End of Front Page -->
 
-    <!-- Login Page -->
-    <!-- End of Login Page -->
-
-    <!-- Sign Up Page -->
-    <!-- End of Sign Up Page -->
-
-    <!-- Modales -->
-
-    <div id="miModalForm1" data-toggle="modal" data-target="#miModalForm1" class="modal fade bd-example-modal-xl"
-        tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <div id="miModalForm1" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog"
+        aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body" style="text-align: center;">
-                    <video width="100%" height="100%" controls>
+                    <video width="100%" height="100%" controls autoplay muted>
                         <source src="/3.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -208,13 +183,12 @@
         </div>
     </div>
 
-
     <div id="miModalForm2" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog"
         aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body" style="text-align: center;">
-                    <video width="100%" height="100%" controls>
+                    <video width="100%" height="100%" controls autoplay muted>
                         <source src="/4.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -228,232 +202,29 @@
         </div>
     </div>
 
-    <div id="miModal1" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-        aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div id="miModalForm3" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog"
+        aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
             <div class="modal-content">
-                <div class="modal-header d-flex align-items-center">
-                    <i class="fas fa-star" style="color: #000000; font-size: 15px">
-                        <p class="service-paragraph modal-styles">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Totalmente
-                            Insatisfecho
-                        </p>
-                    </i>
-
-                    <button type="button" class="close" data-dismiss="modal">
-                        &times;
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <p>Contenido del cuerpo...</p>
+                <div class="modal-body" style="text-align: center;">
+                    <video width="100%" height="100%" controls autoplay muted>
+                        <source src="/5.mp4" type="video/mp4">
+                    </video>
                 </div>
 
                 <div class="modal-footer">
                     <button type="button" class="btn" data-dismiss="modal">
                         <img class="image-emergia-modal" src="images/logo.png" alt="" />
                     </button>
-                    <!-- <button type="button" class="btn btn-primary">Guardar</button> -->
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="miModal2" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-        aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header d-flex align-items-center">
-                    <i class="fas fa-star" style="color: #000000; font-size: 15px">
-                        <i class="fas fa-star" style="color: #000000; font-size: 15px"></i>
-                        <p class="service-paragraph modal-styles">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Totalmente
-                            Insatisfecho
-                        </p>
-                    </i>
-
-                    <button type="button" class="close" data-dismiss="modal">
-                        &times;
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <p>Contenido del cuerpo...</p>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn" data-dismiss="modal">
-                        <img class="image-emergia-modal" src="images/logo.png" alt="" />
-                    </button>
-                    <!-- <button type="button" class="btn btn-primary">Guardar</button> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="miModal3" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-        aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header d-flex align-items-center">
-                    <i class="fas fa-star" style="color: #000000; font-size: 15px">
-                        <i class="fas fa-star" style="color: #000000; font-size: 15px">
-                            <i class="fas fa-star" style="color: #000000; font-size: 15px"></i>
-                        </i>
-                        <p class="service-paragraph modal-styles">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Totalmente
-                            Insatisfecho
-                        </p>
-                    </i>
-
-                    <button type="button" class="close" data-dismiss="modal">
-                        &times;
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <p>Contenido del cuerpo...</p>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn" data-dismiss="modal">
-                        <img class="image-emergia-modal" src="images/logo.png" alt="" />
-                    </button>
-                    <!-- <button type="button" class="btn btn-primary">Guardar</button> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="miModal4" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-        aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header d-flex align-items-center">
-                    <i class="fas fa-star" style="color: #000000; font-size: 15px">
-                        <i class="fas fa-star" style="color: #000000; font-size: 15px">
-                            <i class="fas fa-star" style="color: #000000; font-size: 15px">
-                                <i class="fas fa-star" style="
-                                                color: #000000;
-                                                font-size: 15px;
-                                            "></i>
-                            </i>
-                        </i>
-                        <p class="service-paragraph modal-styles">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Totalmente
-                            Insatisfecho
-                        </p>
-                    </i>
-
-                    <button type="button" class="close" data-dismiss="modal">
-                        &times;
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <p>Contenido del cuerpo...</p>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn" data-dismiss="modal">
-                        <img class="image-emergia-modal" src="images/logo.png" alt="" />
-                    </button>
-                    <!-- <button type="button" class="btn btn-primary">Guardar</button> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="miModal5" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-        aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header d-flex align-items-center">
-                    <i class="fas fa-star" style="color: #000000; font-size: 15px">
-                        <i class="fas fa-star" style="color: #000000; font-size: 15px">
-                            <i class="fas fa-star" style="color: #000000; font-size: 15px">
-                                <i class="fas fa-star" style="
-                                                color: #000000;
-                                                font-size: 15px;
-                                            ">
-                                    <i class="fas fa-star" style="
-                                                    color: #000000;
-                                                    font-size: 15px;
-                                                "></i>
-                                </i>
-                            </i>
-                        </i>
-                        <p class="service-paragraph modal-styles">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Totalmente
-                            Insatisfecho
-                        </p>
-                    </i>
-
-                    <button type="button" class="close" data-dismiss="modal">
-                        &times;
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <p>Contenido del cuerpo...</p>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn" data-dismiss="modal">
-                        <img class="image-emergia-modal" src="images/logo.png" alt="" />
-                    </button>
-                    <!-- <button type="button" class="btn btn-primary">Guardar</button> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Small modal -->
-
-    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">...</div>
-        </div>
-
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-            Launch demo modal
-        </button>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">
-                            Modal title
-                        </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">...</div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                            Close
-                        </button>
-                        <button type="button" class="btn btn-primary">
-                            Save changes
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- End Modales -->
-    </div>
-    </div>
-    <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
