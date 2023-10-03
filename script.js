@@ -92,25 +92,33 @@ var Back2 = document.getElementById("Back2");
 var progress = document.getElementById("progress");
 
 Next1.onclick = function () {
-    Form1.style.left = "-450px";
-    Form2.style.left = "40px";
+    Form1.style.left = "-650px";
+    Form2.style.left = "15px";
     progress.style.width = "420px";
 };
 
 Back1.onclick = function () {
-    Form1.style.left = "40px";
-    Form2.style.left = "450px";
-    progress.style.width = "120px";
+    Form1.style.left = "15px";
+    Form2.style.left = "650px";
+    progress.style.width = "210px";
 };
 
 Next2.onclick = function () {
-    Form2.style.left = "-450px";
-    Form3.style.left = "40px";
+    Form2.style.left = "-650px";
+    Form3.style.left = "15px";
     progress.style.width = "630px";
 };
 
 Back2.onclick = function () {
-    Form2.style.left = "40px";
-    Form3.style.left = "450px";
-    progress.style.width = "540px";
+    Form2.style.left = "15px";
+    Form3.style.left = "650px";
+    progress.style.width = "420px";
 };
+
+// Modales
+$(document).ready(function () {
+    $(".clickable-div").click(function () {
+        var targetModal = $(this).data("target");
+        $(targetModal).modal("show");
+    });
+});

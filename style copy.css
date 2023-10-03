@@ -92,7 +92,7 @@ html {
     border-bottom: 0.1rem solid #aaa;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: #ffffffab;
 }
 .navbar {
     /* width: 120rem; */
@@ -293,7 +293,7 @@ html {
 /* Section 3 */
 .section-3 {
     width: 100%;
-    padding: 5rem 3rem;
+    padding: 5rem 0;
     /* background: linear-gradient(
         to right,
         rgba(3, 33, 129, 0.9),
@@ -303,7 +303,7 @@ html {
     background-color: #efefef;
     color: #fff;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -769,18 +769,17 @@ form button {
     cursor: pointer;
 }
 
-.container-step {
+.container-form {
     width: 630px;
     height: 320px;
-    margin: 0 1rem;
-    padding: 1rem;
+    margin: 0% auto;
     background: #ffffffdb;
     border-radius: 5px;
     position: relative;
     overflow: hidden;
 }
 
-/* .container-form form {
+.container-form form {
     width: 600px;
     position: absolute;
     top: 80px;
@@ -788,7 +787,7 @@ form button {
     transition: 0.5s;
     max-width: 630px;
     margin: 0 auto;
-} */
+}
 
 #Form2 {
     left: 850px;
@@ -844,23 +843,9 @@ form button {
 .clickable-div {
     cursor: pointer;
 }
+/* End form */
 
-.title-steps {
-    width: 170px;
-    height: 0;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-left: 20px solid #6eb4ff;
-    background-color: #026bffcd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* text-align: center; */
-    color: white;
-    font-size: 22px;
-    font-weight: 400;
-    margin-bottom: 25px;
-}
+/* End of Sign Up Page */
 
 /* Responsive */
 @media (max-width: 1500px) {
